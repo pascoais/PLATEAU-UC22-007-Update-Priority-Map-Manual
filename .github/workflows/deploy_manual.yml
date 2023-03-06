@@ -1,39 +1,25 @@
-{
-  "metadata": [
-  ],
-  "build": {
-      "globalMetadata": {
-          "_appTitle": "3D都市モデルの更新優先度マップ",
-          "_appFooter": "3D都市モデルの更新優先度マップ",
-          "_enableSearch": true
-      },
-      "content": [
-          {
-              "files": [
-                  "toc.yml",
-                  "index.md"
-              ]
-          },
-          {
-              "src": "manual",
-              "files": [
-                  "toc.yml",
-                  "*.md"
-              ],
-              "dest": "manual"
-          }
-      ],
-      "resource": [
-          {
-              "files": [
-                  "resources/**/*"
-              ]
-          }
-      ],
-      "sitemap": {
-          "baseUrl": "https://pascoais.github.io/PLATEAU-UC22-007-Update-Priority-Map",
-          "changefreq": "weekly"
-      },
-      "dest": "../.docs/_site"
-  }
-}
+name: deploy_manual
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install DocFX
+        run: choco install -y docfx
+
+      - name: Build Document
+        run: docfx Documentation/docfx.json
+
+      - name: Deploy manual to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .docs/_site
