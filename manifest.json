@@ -1,0 +1,277 @@
+{
+  "sitemap": {
+    "baseUrl": "https://pascoais.github.io/PLATEAU-UC22-007-Update-Priority-Map/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/a/PLATEAU-UC22-007-Update-Priority-Map-DocFX-Manual/PLATEAU-UC22-007-Update-Priority-Map-DocFX-Manual/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "DY2Zjo3PeMw5U6RdZ589pCPNJaNgpz4nmCyH+DXKByk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/create_update_priority_map.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/create_update_priority_map.html",
+          "hash": "Rnf3BYMtVpxT9yv2i3NXpqzHCHtX9XF+5gpkrp8sqNA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/download_image.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/download_image.html",
+          "hash": "Oyh0o9wGUGOIqy64xJmEYEEMn+JpKWGO8Ll6eTJ0GKM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/environment.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/environment.html",
+          "hash": "b7q8L2517ljDR0cnFfiNgsziP9Jhv/JAHoA0S/fCVII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/run_change_detection.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/run_change_detection.html",
+          "hash": "1JHGj3s7laZgru1ZyC80ui3CTai/nIO6Gh7OXqlcqEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/setting.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/setting.html",
+          "hash": "/YStviL4g/DmUDAMMvwibYUWZD5R/BGtuLDt4wzTB88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "Aih5x5zQGsru+MVBqyc14Iujg82dEf/DIbfG5thMfyQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/view_update_priority_map.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/view_update_priority_map.html",
+          "hash": "VK5wlAlUO51KA/jgV7xuBvlKQEBfe299s8jmShNlY6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/index/result_view_plateauview_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/index/result_view_plateauview_new.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/index/result_view_plateauview_old.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/index/result_view_plateauview_old.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/manual/download_image/check_download_image_qgis.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/manual/download_image/check_download_image_qgis.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/manual/run_change_detection/check_probmap_qgis.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/manual/run_change_detection/check_probmap_qgis.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/manual/setting/check_3rd-mesh_pdf.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/manual/setting/check_3rd-mesh_pdf.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/manual/setting/check_3rd-mesh_qgis.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/manual/setting/check_3rd-mesh_qgis.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/manual/view_update_priority_map/view_result_qgis_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/manual/view_update_priority_map/view_result_qgis_new.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/manual/view_update_priority_map/view_result_qgis_old.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/manual/view_update_priority_map/view_result_qgis_old.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/manual/view_update_priority_map/view_sample_update_priority_map.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/manual/view_update_priority_map/view_sample_update_priority_map.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "06uiBuftZaXpQ8azBe5iXhY37/sextPwNZwV63tkIxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
