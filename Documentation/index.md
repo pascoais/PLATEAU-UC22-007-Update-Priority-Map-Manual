@@ -33,7 +33,7 @@ GitHubリポジトリにて、以下の処理を行うスクリプトをOSSと�
 
 ## ライセンス
 * 本マニュアルの著作権は国土交通省に帰属します。
-* 本マニュアルは[Project PLATEAUのサイトポリシー](https://www.mlit.go.jp/plateau/sitepolicy/)（CC BY 4.0および政府標準利用規約2.0）に従い提供されています。
+* 本マニュアルは[Project PLATEAUのサイトポリシー](https://www.mlit.go.jp/plateau/site-policy/)（CC BY 4.0および政府標準利用規約2.0）に従い提供されています。
 
 
 ## 注意事項
